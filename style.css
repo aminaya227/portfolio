@@ -1,0 +1,228 @@
+/* Cross Browser Compatability CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+
+/*font-family: 'Bitter', serif;
+
+font-family: 'Lobster', cursive;*/
+
+/*homepage*/
+
+body{
+	overflow:auto;
+	color:tomato;
+	font-family: 'Bitter', serif;
+	background-image: url (http://static.pexels.com/wp-content/uploads/2014/05/blur-evening-sun-macbook-air-170-825x550.jpg)no-repeat center center fixed;
+	-moz-background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+   
+   img{
+   
+   position: fixed;
+
+}
+
+
+	
+#navigation {
+  font-family: 'Bitter', serif;
+position: fixed;
+top: 0;
+width: 100%;
+color:tomato;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+
+/* Adds the transparent background */
+
+color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+font-size: 20px;
+padding-left: 15px;
+padding-right: 15px;
+color: tomato;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
+
+
+a { color:tomato;
+}
+
+
+
+h1#name {
+	font-family: 'Lobster', cursive;
+    font-size: 5em;
+    line-height: 80%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+    text-shadow: 1px 1px 1px #000;
+    }
+
+p{
+font-size: 20px;
+margin-left:10%;
+margin-right:10%;
+letter-spacing: 0.1em;
+}
+
+p a{
+color: blue;
+text-decoration: underline;
+
+}
+
+p a hover{
+color: grey;
+}
+
+ 
+ #container{
+ 	width: 80%;
+    margin: 0 auto;
+    padding:90px;
+    padding-bottom:80px; /* Height of the footer element */
+
+    
+  }
+
+ 
+
+  footer{
+  font-family:'Bitter', serif;
+  clear:both;
+    text-align:center;
+	width:100%;
+    height:80px;
+	position: relative;
+    bottom:0;
+    left:0;-size:16px;
+	
+}
+
+/*about page*/
+
+.avatarbox {
+border: 1px none;
+  width: 110px;
+  height: 100px;
+  -webkit-border-radius: 50%; /* Can also be 55px */
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: center;
+  margin:auto;
+position: static;
+padding-top:100px;
+padding-bottom:30px;
+ 
+ }
+
+.avatarbox img {
+  -webkit-border-radius: 50%; /* Can also be 50px */
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  
+
+ }
+
+
+#aboutparagragh{
+font-family:'Bitter', serif;
+  font-size: 16px;
+  letter-spacing: 0.1em; 
+  line-height: 2em;
+  width:800px;
+    margin:0 auto;
+   
+}
+
+  
+  
+  /*contact*/
+  
+
+  
+  
+  /*projects*/
+  
+p#projects{
+    font-size: 20px;
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding:80px;
+    
+}
+
+
+
+  
+ 
+  
+ 
+
+
+
+  
+  
+  
+  
+
+  
